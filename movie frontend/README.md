@@ -1,16 +1,29 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Movie App
+A responsive movie browsing webisite built with React and Vite.
+## Live Demo
+Visit the live website : https://sammal08.github.io/react-movie-application/
+## About the project
+This app is a React-based web application that allows users to browse movies, search for movies, and add movies to their favorites.
+## Features
+- Browse movies
+- Search for movies
+- Add movies to favorites
+- Remove movies from favorites
+- Save favorites using local storage
+- Responsive UI
+- Navigation using React Router
+## Technologies Used
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- Movies API
+- LOcalStorage
+## Getting Started
+### Clone the repository
+git clone https://github.com/SamMal08/react-movie-application.git
+### Install dependencies
+npm install
+### Run the development server
+npm run dev
